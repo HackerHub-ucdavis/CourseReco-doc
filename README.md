@@ -2,7 +2,7 @@
 
 design documents for the Course Recommender project
 
-**NOTE** all content in the doc are open to discussion. Please use `Issue` for any question/concern.
+**NOTE** all content in the doc are open to discussion. Please use `Issue` for any question/concern.
 
 ![arch](./img/arch.png)
 
@@ -11,7 +11,7 @@ design documents for the Course Recommender project
 ## Table of Content
 
 * [Frontend](./Frontend.md) @[JackyWangRechar ](https://github.com/JackyWangRechar)
-* [Service Interface](./ServiceInterface.md) @[Keyingl](https://github.com/Keyingl) @[Yifeng He](https://github.com/EYH0602)
+* [Service Interface](./ServiceInterface.md) @[Yifeng He](https://github.com/EYH0602)@[JackyWangRechar ](https://github.com/JackyWangRechar)
 * [Recommender Engine](./RecommenderEngine.md) @[Yifeng He](https://github.com/EYH0602)
 * [SchedGo](https://schedgo.com/)
 

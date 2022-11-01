@@ -1,5 +1,5 @@
 # Service Interface
-
+<!-- 
 ## POST /auth-token
 
 Starts a user session. Since this is a beginner friendly project, the server will just have one session at a time (no concurrency needed).
@@ -29,17 +29,23 @@ Updates user info in the db
 
 | **Key** | **Description**       |
 | ------- | --------------------- |
-| courses | top-K matched courses |
+| courses | top-K matched courses | -->
 
-## GET /users/{uid}
+## GET /recom
+
+| **Argument** | **Description**                                |
+| ------------ | ---------------------------------------------- |
+| liked        | string, a previous course code that user liked |
+| k            | int, number of recommendation                  |
+| subjects     | string, list of subject code, csv              |
 
 ### Return Object
 
-| **Key** | **Description**       |
-| ------- | --------------------- |
-| courses | top-K matched courses |
+| **Key** | **Description**                    |
+| ------- | ---------------------------------- |
+| courses | string, top-k matched courses, csv |
 
-# User DB
+<!-- # User DB
 
 | **field** | **type**   | **constrains** | **description**                                              |
 | --------- | ---------- | -------------- | ------------------------------------------------------------ |
@@ -53,4 +59,4 @@ Updates user info in the db
 Or just use csv for simplicity.
 
 - Since there will be no concurrency, querying one row each time does not worth it
-- Up to discussion
+- Up to discussion -->
